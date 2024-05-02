@@ -19,6 +19,13 @@ For Flatpak installs of Steam the file path will be as follows:
 
 **I have added the `steam_dev.cfg` file in this repository that you can put in the file path.
 
+# Visual Proof
+_Before the `steam_dev.cfg` file is in place_
+![BeforeSteamDevFix](screenshots/before.png)
+
+_After the `steam_dev.cfg` file is in place_
+![AfterSteamDevFix](screenshots/after.png)
+
 # Sources for Fix
 
 [Arch Wiki - Disable HTTP2](https://wiki.archlinux.org/title/steam#Disable_HTTP2_for_faster_downloads)  
