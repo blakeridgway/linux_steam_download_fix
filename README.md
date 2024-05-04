@@ -17,7 +17,7 @@ For Flatpak installs of Steam the file path will be as follows:
 
 `~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg`
 
-**I have added the `steam_dev.cfg` file in this repository that you can put in the file path.
+I have added the `steam_dev.cfg` file in this repository that you can put in the file path.
 
 # Run the Fix
 
