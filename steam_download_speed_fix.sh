@@ -30,12 +30,3 @@ done
 		echo "No Steam installation was not detected"
 	fi
 fi
-
-
-
-# Flatpak Install
-#~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg
-
-
-# Native Install
-#~/.steam/steam/steam_dev.cfg
