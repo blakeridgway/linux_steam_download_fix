@@ -5,7 +5,7 @@ config="steam_dev.cfg"
 echo "Running Steam download fix"
 echo "Checking for native install."
 
-
+# Run check to see if native install exists
 if [ -d "$HOME/.steam/steam/" ]
 then
 		echo "Native Steam installation was detected. Do you want to continue?"
@@ -17,6 +17,8 @@ then
 done
 	else
 		echo "Native Steam installation was not detected. Checking for Flatpak."
+
+# Run check to see if Flatpak install exists
 if [ -d "$HOME/.var/app/com.valvesoftware.Steam/.steam/steam/" ]
 then
 		echo "Flatpak Steam install was detected. Do you want to continue with the fix?"
