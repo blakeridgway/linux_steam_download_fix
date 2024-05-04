@@ -19,6 +19,20 @@ For Flatpak installs of Steam the file path will be as follows:
 
 **I have added the `steam_dev.cfg` file in this repository that you can put in the file path.
 
+# Run the Fix
+
+Getting the fix on your machine is easy. Running the following command to get the script to execute and place the `steam_dev.cfg` file in the correct location.
+
+```bash
+git clone https://github.com/blakeridgway/linux_steam_download_fix.git
+cd linux_steam_download_fix
+./steam_download_speed_fix.sh
+```
+
+**Disclaimer: The select Yes/No is a selection using 1 for yes & 2 for no.** 
+
+*This is being fixed in another iteration. Feel free to open a Pull Request if you see any thing that can be optimized.*
+
 # Visual Proof
 _Before the `steam_dev.cfg` file is in place_
 ![BeforeSteamDevFix](screenshots/before.png)
