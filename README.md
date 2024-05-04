@@ -21,6 +21,11 @@ I have added the `steam_dev.cfg` file in this repository that you can put in the
 
 # Run the Fix
 
+**Steam has to be launched first and either showing the login screen or you can login. This will initalize the Steam directories. If you haven't launched Steam at least one time, the file path will not exist**  
+
+- **Disclaimer: The select Yes/No is a selection using 1 for yes & 2 for no.**  
+*This is being fixed in another iteration. Feel free to open a Pull Request if you see any thing that can be optimized.*  
+
 Getting the fix on your machine is easy. Running the following command to get the script to execute and place the `steam_dev.cfg` file in the correct location.
 
 ```bash
@@ -29,9 +34,7 @@ cd linux_steam_download_fix
 ./steam_download_speed_fix.sh
 ```
 
-**Disclaimer: The select Yes/No is a selection using 1 for yes & 2 for no.** 
-
-*This is being fixed in another iteration. Feel free to open a Pull Request if you see any thing that can be optimized.*
+Once you have ran the script, restart Steam so the fix is fully activated.
 
 # Visual Proof
 _Before the `steam_dev.cfg` file is in place_
